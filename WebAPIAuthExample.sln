@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Management.API", "User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Management.Service", "User.Management.Service\User.Management.Service.csproj", "{C77234C8-1948-4AFB-9A70-3AE2FC05F2AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoWeb.API", "TodoWeb.API\TodoWeb.API.csproj", "{A4292871-C0E5-4D17-9B29-04002E9990BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C77234C8-1948-4AFB-9A70-3AE2FC05F2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77234C8-1948-4AFB-9A70-3AE2FC05F2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77234C8-1948-4AFB-9A70-3AE2FC05F2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4292871-C0E5-4D17-9B29-04002E9990BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4292871-C0E5-4D17-9B29-04002E9990BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4292871-C0E5-4D17-9B29-04002E9990BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4292871-C0E5-4D17-9B29-04002E9990BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

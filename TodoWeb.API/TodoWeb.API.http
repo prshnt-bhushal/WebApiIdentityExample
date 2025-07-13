@@ -1,0 +1,34 @@
+@TodoWeb.API_HostAddress = https://localhost:7140
+
+GET {{TodoWeb.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{TodoWeb.API_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "Learn Dot Net",
+  "isComplete": false
+}
+
+###
+
+GET {{TodoWeb.API_HostAddress}}/api/todoitems
+
+###
+
+@id=2
+GET {{TodoWeb.API_HostAddress}}/api/todoitems/{{id}}
+
+###
+
+POST {{TodoWeb.API_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItemDTO
+}
+
+###
